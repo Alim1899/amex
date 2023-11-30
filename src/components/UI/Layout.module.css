@@ -1,0 +1,14 @@
+.layout{
+    width: 80vw;
+    height: 80vh;
+    margin: 10vh auto;
+   background-color: wheat;
+   display: grid;
+   grid-template-columns: 40% 60%;
+}
+.logo{
+}
+
+.logo>img{
+    width: 100%;
+}
