@@ -1,9 +1,9 @@
 import './App.css';
-import Layout from './components/UI/Layout';
+import Content from '../src/components/UI/Content'
 function App() {
   return (
     <div className="App">
-      <Layout/>
+      <Content/>
     </div>
   );
 }
