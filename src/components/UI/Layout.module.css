@@ -2,16 +2,16 @@
     width: 80vw;
     min-width: 700px;
     height: 80vh;
-    margin-top: 6vh;
    background-color: wheat;
    display: grid;
-   grid-template-columns: 40% 60%;
-   opacity: 1;
+   grid-template-columns: 55% 45%;
 
    background-color:whitesmoke;
    border-radius: 50px;
-   opacity: 0.7;
+   background-color: rgba(189, 189, 197, 0.6);
+margin-top: 6vh;
 }
+
 .content{
     text-align: center;
 }
@@ -21,60 +21,46 @@ margin-top: 20px;
 }
 
 .states{
-display:grid;
-grid-template-columns: 30% 40% 30%;
-grid-template-rows: 50% 30%;
-
-}
-.states>img{
-  width: 100%;
-  max-width: 160px;
-  padding: 7%;
+height: 200px;
+max-width: 400px;
+max-width: 100%;
 }
 
+.states>div>label>img{
+  width: 10vw;
+  min-width: 80px;
 
+  max-width: 140px;
+  margin: 5px;
+}
 
-.about {
-    background-color:beige;
-    text-align: center;
-    border-radius: 50px;
-    --b: 1px;   /* thickness of the border */
-    --c: rgb(69, 32, 119);   /* color of the border */
-    --w: 40px;  /* width of border */
-    --r: 50px;  /* radius */
-    
-  
-    padding: var(--b); /* space for the border */
-    
-    position:relative;
-    /*Irrelevant code*/  
-    
-    box-sizing:border-box;
-    margin:15px;
-    
-    font-size:1.4rem;
-    font-weight: 700;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-  }
-  .about::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: var(--c,rgb(8, 119, 23));
-    padding: var(--b);
-    border-radius: var(--r);
-    -webkit-mask:
-      linear-gradient(  0deg,#000 calc(2*var(--b)),#0000 0) 50% var(--b)/calc(100% - 2*var(--w)) 100% repeat-y,
-      linear-gradient(-90deg,#000 calc(2*var(--b)),#0000 0) var(--b) 50%/100% calc(100% - 2*var(--w)) repeat-x,
-      linear-gradient(#000 0 0) content-box,
-      linear-gradient(#000 0 0);
-    -webkit-mask-composite: destination-out;
-            mask-composite: exclude;
-  }
+.states>div>label{
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+.firstRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondRow{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
   .about{
     display: grid;
-    grid-template-rows: 30% 30% 40%;
+    grid-template-rows: 20% 40% 40%;
+    opacity: 0.7;
+    font-weight: 900;
+    background-color:whitesmoke;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    background-color: rgba(249, 250, 250, 0.8);
   }
 
+  .about>h3{
+    font-weight: 800;
+  }
