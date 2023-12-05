@@ -10,3 +10,23 @@
     margin-top: -10px;
     position: absolute;
 }
+.form{
+    width: 90%;
+    margin: auto;
+}
+.form>div{
+    display: grid;
+    text-align: left;
+    grid-template-columns: 20% 80%;
+    margin-top: 30px;
+}
+.form>div>select{
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 70%;
+    font-weight: 900;
+    margin: auto;
+}
