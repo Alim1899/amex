@@ -43,13 +43,14 @@ const Content = (props) => {
             auction: "",
             state: "",
             city: "",
-            car:""
+            car: "",
           }}
           onChange={(values) => {
             console.log(values);
           }}
         >
           {(formik) => (
+            <div>
             <Form
               className={classes.form}
               onChange={() => {
@@ -59,36 +60,52 @@ const Content = (props) => {
               <h4 className={classes.heading}>Calculate Transportation</h4>
 
               <FormikControl
+              className={classes.control}
                 name="auction"
                 control="select"
                 label="Auction:"
                 options={auctions}
               />
-              {formik.values.auction && (
-                <FormikControl
-                  name="city"
-                  control="select"
-                  label="City:"
-                  options={cities}
-                />
-              )}
-              {formik.values.auction && formik.values.city && (
-                <FormikControl
-                  name="state"
-                  control="select"
-                  label="State:"
-                  options={states}
-                />
-              )}
-              {formik.values.auction && formik.values.state && formik.values.city &&(
-                <FormikControl
-                  name="car"
-                  control="select"
-                  label="Type:"
-                  options={carTypes}
-                />
-              )}
+
+              <FormikControl
+               className={classes.control}
+                name="city"
+                control="select"
+                label="City:"
+                options={cities}
+              />
+
+              <FormikControl
+               className={classes.control}
+                name="state"
+                control="select"
+                label="State:"
+                options={states}
+              />
+
+              <FormikControl
+               className={classes.control}
+                name="car"
+                control="select"
+                label="Type:"
+                options={carTypes}
+              />
+             
+              
+              
             </Form>
+            <div className={classes.price}>
+
+            <h4 className={classes.portname}>
+                  Port:
+                  <span>New Jersey - 1560$</span>
+                </h4>
+                
+                <h4 className={classes.portname}>
+                  Port: <span>Savannah - 2760$</span>
+                </h4>
+            </div>
+            </div>
           )}
         </Formik>
       </Layout>

@@ -2,14 +2,15 @@
     width: 80vw;
     min-width: 700px;
     height: 80vh;
+    max-width: 1250px;
    background-color: wheat;
    display: grid;
    grid-template-columns: 55% 45%;
 
    background-color:whitesmoke;
    border-radius: 50px;
-   background-color: rgba(189, 189, 197, 0.6);
-margin-top: 6vh;
+   background-color: rgba(189, 189, 197, 0.7);
+margin-top: 7vh;
 }
 
 .content{
