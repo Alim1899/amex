@@ -57,4 +57,6 @@ margin-top: 2vh;
 }
 .price>h4>span{
     margin-left: -25px;
+    color:crimson;
+    font-weight: 900;
 }
