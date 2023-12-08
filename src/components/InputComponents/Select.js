@@ -7,9 +7,9 @@ const Select = (props) => {
   return (
     <div className={classes.formControl}>
       <label htmlFor={name}>{label}</label>
-      <Field as="select" id={name} name={name} {...rest}>
+      <Field as="select" autoComplete='off' id={name} name={name} {...rest}>
         {options.map((option) => (
-          <option key={option.value} value={option.value}>
+          <option key={option.value} value={option.value} disabled={option.disabled}>
             {option.value ? option.value : option.key}
           </option>
         ))}

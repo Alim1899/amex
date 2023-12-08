@@ -4,6 +4,10 @@ import background from "../../assets/cargo.jpg";
 import { Formik, Form } from "formik";
 import FormikControl from "../InputComponents/FormikControl";
 const Content = (props) => {
+  const reset =(formik)=>{
+    formik.values.state='';
+    return [{key:'Choose',value:''}];
+  }
   return (
     <div className={classes.content}>
       <img className={classes.logo} src={background} alt="background"></img>
@@ -22,14 +26,8 @@ const Content = (props) => {
         >
           {(formik) => (
             <div>
-              <Form
-                className={classes.form}
-                onChange={() => {
-                  console.log(formik.values.auction);
-                }}
-              >
+              <Form className={classes.form} onChange={props.handleChange}>
                 <h4 className={classes.heading}>Calculate Transportation</h4>
-
                 <FormikControl
                   className={classes.control}
                   name="auction"
@@ -43,7 +41,8 @@ const Content = (props) => {
                   name="state"
                   control="select"
                   label="State:"
-                  options={props.states}
+                  options={formik.values.auction?props.states:reset(formik)}
+                  disabled={props.stateDisable}
                 />
                 <FormikControl
                   className={classes.control}
@@ -51,6 +50,7 @@ const Content = (props) => {
                   control="select"
                   label="City:"
                   options={props.cities}
+                  disabled={props.cityDisable}
                 />
 
                 <FormikControl
@@ -59,6 +59,7 @@ const Content = (props) => {
                   control="select"
                   label="Type:"
                   options={props.types}
+                  disabled={props.typeDisable}
                 />
               </Form>
               <div className={classes.price}>
