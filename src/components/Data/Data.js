@@ -26,25 +26,45 @@ const Data = (props) => {
 
   //|||\\\\\\\\\\\Handling changes on fields
   const stateShortNames = [];
+  const cityByState = [];
   const handleChange = (e) => {
     if (e.target.id === "auction") {
       if (e.target.value === "Copart") {
         copart.forEach((el) => {
+          //
           if (!stateShortNames.includes(el.state))
             stateShortNames.push(el.state);
         });
-
+        //
         stateShortNames.forEach((el) => {
           let key = (Math.random() * Math.random() * 10000000).toFixed();
           states.push({ key: key * key, value: el });
         });
+        //
         setState(states);
         setStateDisable(false);
-      }else{
+      } else {
         setStateDisable(true);
       }
-    }
+    } else if (e.target.id === "state") {
+      ///
+      cities.splice(1,cities.length)
+      copart.forEach((el) => {
+        if (e.target.value === el.state) {
+          if (!cityByState.includes(el.city)) cityByState.push(el.city);
+        }})
+        cityByState.forEach(city=>{
+          let key = (Math.random() * Math.random() * 10000000).toFixed();
+           cities.push({ key: key * key, value: city });
+        })
+        
+        console.log(cities);
+         setCity(cities);
+        setCityDisable(false);
+      
+    
   };
+}
 
   return (
     <div>

@@ -4,8 +4,8 @@ import background from "../../assets/cargo.jpg";
 import { Formik, Form } from "formik";
 import FormikControl from "../InputComponents/FormikControl";
 const Content = (props) => {
-  const reset =(formik)=>{
-    formik.values.state='';
+  const reset =(value)=>{
+    value='';
     return [{key:'Choose',value:''}];
   }
   return (
@@ -41,7 +41,7 @@ const Content = (props) => {
                   name="state"
                   control="select"
                   label="State:"
-                  options={formik.values.auction?props.states:reset(formik)}
+                  options={formik.values.auction?props.states:reset(formik.values.state)}
                   disabled={props.stateDisable}
                 />
                 <FormikControl
@@ -49,7 +49,7 @@ const Content = (props) => {
                   name="city"
                   control="select"
                   label="City:"
-                  options={props.cities}
+                   options={formik.values.state?props.cities:reset(formik.values.city)}
                   disabled={props.cityDisable}
                 />
 

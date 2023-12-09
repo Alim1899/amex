@@ -1,120 +1,120 @@
 [
  {
-  "transport": "ABILENE, TX 7960",
+  "city": "ABILENE, TX 7960",
   "state": "TX",
   "price": 1780,
   "port": "Houston, TX"
  },
  {
-  "transport": "ADELANTO (CA) 9",
+  "city": "ADELANTO (CA) 9",
   "state": "CA",
   "price": 2105,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "ALBANY 12205",
+  "city": "ALBANY 12205",
   "state": "NY",
   "price": 1430,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "ALBUQUERQUE 8",
+  "city": "ALBUQUERQUE 8",
   "state": "NM",
   "price": 1975,
   "port": "Houston, TX"
  },
  {
-  "transport": "ALTOONA 15931",
+  "city": "ALTOONA 15931",
   "state": "PA",
   "price": 1605,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "AMARILLO, TX 79",
+  "city": "AMARILLO, TX 79",
   "state": "TX",
   "price": 1935,
   "port": "Houston, TX"
  },
  {
-  "transport": "ANCHORAGE 995",
+  "city": "ANCHORAGE 995",
   "state": "AK",
   "price": 4355,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "ANDREWS, TX 79",
+  "city": "ANDREWS, TX 79",
   "state": "TX",
   "price": 1855,
   "port": "Houston, TX"
  },
  {
-  "transport": "ANTELOPE 95843",
+  "city": "ANTELOPE 95843",
   "state": "CA",
   "price": 2245,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "APPLETON, WI 54",
+  "city": "APPLETON, WI 54",
   "state": "WI",
   "Column7": 1845,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "ATLANTA EAST 30",
+  "city": "ATLANTA EAST 30",
   "state": "GA",
   "price": 1480,
   "port": "Savannah, GA"
  },
  {
-  "transport": "ATLANTA NORTH",
+  "city": "ATLANTA NORTH",
   "state": "GA",
   "price": 1480,
   "port": "Savannah, GA"
  },
  {
-  "transport": "ATLANTA SOUTH",
+  "city": "ATLANTA SOUTH",
   "state": "GA",
   "price": 1480,
   "port": "Savannah, GA"
  },
  {
-  "transport": "ATLANTA WEST 3",
+  "city": "ATLANTA WEST 3",
   "state": "GA",
   "price": 1480,
   "port": "Savannah, GA"
  },
  {
-  "transport": "Augusta, GA 3090",
+  "city": "Augusta, GA 3090",
   "state": "GA",
   "price": 1405,
   "port": "Savannah, GA"
  },
  {
-  "transport": "AUSTIN, TX 78130",
+  "city": "AUSTIN, TX 78130",
   "state": "TX",
   "price": 1675,
   "port": "Houston, TX"
  },
  {
-  "transport": "BAKERSFIELD 93",
+  "city": "BAKERSFIELD 93",
   "state": "CA",
   "price": 2135,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "BALTIMORE 2104",
+  "city": "BALTIMORE 2104",
   "state": "MD",
   "price": 1445,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "BALTIMORE EAST",
+  "city": "BALTIMORE EAST",
   "state": "MD",
   "price": 1480,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "BATON ROUGE 7",
+  "city": "BATON ROUGE 7",
   "state": "LA",
   "price": 1755,
   "secondprice": "1640 GA",
@@ -122,7 +122,7 @@
   "secondport": "2. Savannah, GA"
  },
  {
-  "transport": "BILLINGS 59103",
+  "city": "BILLINGS 59103",
   "state": "MT",
   "price": 2955,
   "secondprice": "2495 GA",
@@ -130,99 +130,99 @@
   "secondport": "2. Savannah, GA"
  },
  {
-  "transport": "BIRMINGHAM 350",
+  "city": "BIRMINGHAM 350",
   "state": "AL",
   "price": 1525,
   "port": "Savannah, GA"
  },
  {
-  "transport": "BISMARCK (ND) 5",
+  "city": "BISMARCK (ND) 5",
   "state": "ND",
   "Column7": 2355,
   "port": "Indianapolis, IN",
   "secondport": "2. Elizabeth, NJ"
  },
  {
-  "transport": "BOISE 83651",
+  "city": "BOISE 83651",
   "state": "ID",
   "price": 2725,
   "secondprice": "2455 NJ",
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "BUFFALO, NY 140",
+  "city": "BUFFALO, NY 140",
   "state": "NY",
   "price": 1655,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "CANDIA NH 03034",
+  "city": "CANDIA NH 03034",
   "state": "NH",
   "price": 1505,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "CARTERSVILLE 3",
+  "city": "CARTERSVILLE 3",
   "state": "GA",
   "price": 1480,
   "port": "Savannah, GA"
  },
  {
-  "transport": "CASPER, WY 826",
+  "city": "CASPER, WY 826",
   "state": "WY",
   "Column7": 2495,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "CHAMBERSBURG",
+  "city": "CHAMBERSBURG",
   "state": "PA",
   "price": 1485,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "CHARLESTON\/Hu",
+  "city": "CHARLESTON\/Hu",
   "state": "WV",
   "price": 1680,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "CHICAGO NORTH",
+  "city": "CHICAGO NORTH",
   "state": "IL",
   "Column7": 1675,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "CHICAGO SOUTH",
+  "city": "CHICAGO SOUTH",
   "state": "IL",
   "Column7": 1675,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "CHINA GROVE 28",
+  "city": "CHINA GROVE 28",
   "state": "NC",
   "price": 1445,
   "port": "Savannah, GA"
  },
  {
-  "transport": "CICERO, IN 46034",
+  "city": "CICERO, IN 46034",
   "state": "IN",
   "Column7": 1480,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "CLEVELAND EAS",
+  "city": "CLEVELAND EAS",
   "state": "OH",
   "price": 1645,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "CLEVELAND WES",
+  "city": "CLEVELAND WES",
   "state": "OH",
   "price": 1645,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "COLORADO SPRI",
+  "city": "COLORADO SPRI",
   "state": "CO",
   "price": 2105,
   "secondprice": "1960 NJ",
@@ -230,109 +230,109 @@
   "secondport": "2. Elizabeth, NJ"
  },
  {
-  "transport": "COLUMBIA MO 65",
+  "city": "COLUMBIA MO 65",
   "state": "MO",
   "Column7": 1875,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "COLUMBIA SC 29",
+  "city": "COLUMBIA SC 29",
   "state": "SC",
   "price": 1380,
   "port": "Savannah, GA"
  },
  {
-  "transport": "COLUMBUS (OH)",
+  "city": "COLUMBUS (OH)",
   "state": "OH",
   "Column7": 1665,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "CONCORD NC (2",
+  "city": "CONCORD NC (2",
   "state": "NC",
   "price": 1455,
   "port": "Savannah, GA"
  },
  {
-  "transport": "CORPUS CHRIST",
+  "city": "CORPUS CHRIST",
   "state": "TX",
   "price": 1745,
   "port": "Houston, TX"
  },
  {
-  "transport": "CRASHEDTOYS A",
+  "city": "CRASHEDTOYS A",
   "state": "GA",
   "price": 1480,
   "port": "Savannah, GA"
  },
  {
-  "transport": "CRASHEDTOYS D",
+  "city": "CRASHEDTOYS D",
   "state": "TX",
   "price": 1675,
   "port": "Houston, TX"
  },
  {
-  "transport": "CRASHEDTOYS E",
+  "city": "CRASHEDTOYS E",
   "state": "MN",
   "Column7": 1860,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "CRASHEDTOYS E",
+  "city": "CRASHEDTOYS E",
   "state": "IA",
   "Column7": 1855,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "CRASHEDTOYS M",
+  "city": "CRASHEDTOYS M",
   "state": "GA",
   "price": 1635,
   "port": "Savannah, GA"
  },
  {
-  "transport": "CRASHEDTOYS M",
+  "city": "CRASHEDTOYS M",
   "state": "MN",
   "Column7": 1905,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "CRASHEDTOYS S",
+  "city": "CRASHEDTOYS S",
   "state": "CA",
   "price": 2235,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "DALLAS SOUTH 7",
+  "city": "DALLAS SOUTH 7",
   "state": "TX",
   "price": 1675,
   "port": "Houston, TX"
  },
  {
-  "transport": "DALLAS, TX 7505",
+  "city": "DALLAS, TX 7505",
   "state": "TX",
   "price": 1675,
   "port": "Houston, TX"
  },
  {
-  "transport": "DANVILLE 24531",
+  "city": "DANVILLE 24531",
   "state": "VA",
   "price": 1555,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "DAVENPORT (IA)",
+  "city": "DAVENPORT (IA)",
   "state": "IA",
   "Column7": 1855,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "DAYTON, OH 454",
+  "city": "DAYTON, OH 454",
   "state": "OH",
   "Column7": 1675,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "DENVER CENTRA",
+  "city": "DENVER CENTRA",
   "state": "CO",
   "price": 2075,
   "secondprice": "1910 NJ",
@@ -340,73 +340,73 @@
   "secondport": "2. Elizabeth, NJ"
  },
  {
-  "transport": "DENVER SOUTH",
+  "city": "DENVER SOUTH",
   "state": "CO",
   "price": 2075,
   "port": "Houston, TX"
  },
  {
-  "transport": "DENVER\/Brighton",
+  "city": "DENVER\/Brighton",
   "state": "CO",
   "price": 2075,
   "port": "Houston, TX"
  },
  {
-  "transport": "DES MOINES (IA)",
+  "city": "DES MOINES (IA)",
   "state": "IA",
   "Column7": 1875,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "DETROIT 48183",
+  "city": "DETROIT 48183",
   "state": "MI",
   "price": 1705,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "DOTHAN 36352",
+  "city": "DOTHAN 36352",
   "state": "AL",
   "price": 1530,
   "port": "Savannah, GA"
  },
  {
-  "transport": "DYER (IN) 46311",
+  "city": "DYER (IN) 46311",
   "state": "IN",
   "Column7": 1655,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "EARLINGTON (KY",
+  "city": "EARLINGTON (KY",
   "state": "KY",
   "price": 1670,
   "port": "Savannah, GA"
  },
  {
-  "transport": "EL PASO, TX 7982",
+  "city": "EL PASO, TX 7982",
   "state": "TX",
   "price": 1830,
   "port": "Houston, TX"
  },
  {
-  "transport": "EUGENE 97402",
+  "city": "EUGENE 97402",
   "state": "OR",
   "price": 2525,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "EXETER, RI 0282",
+  "city": "EXETER, RI 0282",
   "state": "RI",
   "price": 1505,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "FAIRBURN (GA) 3",
+  "city": "FAIRBURN (GA) 3",
   "state": "GA",
   "price": 1480,
   "port": "Savannah, GA"
  },
  {
-  "transport": "FAYETTEVILLE (A",
+  "city": "FAYETTEVILLE (A",
   "state": "AR",
   "price": 1925,
   "secondprice": "1870 GA",
@@ -414,193 +414,193 @@
   "secondport": "2. Savannah, GA"
  },
  {
-  "transport": "FLINT 48423",
+  "city": "FLINT 48423",
   "state": "MI",
   "price": 1705,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "FORT WAYNE 468",
+  "city": "FORT WAYNE 468",
   "state": "IN",
   "Column7": 1630,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "FREDERICKSBUR",
+  "city": "FREDERICKSBUR",
   "state": "VA",
   "price": 1530,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "FREETOWN, MA 0",
+  "city": "FREETOWN, MA 0",
   "state": "MA",
   "price": 1505,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "FRESNO 93725",
+  "city": "FRESNO 93725",
   "state": "CA",
   "price": 2155,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "FT. PIERCE 34946",
+  "city": "FT. PIERCE 34946",
   "state": "FL",
   "price": 1505,
   "port": "Savannah, GA"
  },
  {
-  "transport": "FT. WORTH, TX 7",
+  "city": "FT. WORTH, TX 7",
   "state": "TX",
   "price": 1680,
   "port": "Houston, TX"
  },
  {
-  "transport": "GASTONIA 28052",
+  "city": "GASTONIA 28052",
   "state": "NC",
   "price": 1455,
   "port": "Savannah, GA"
  },
  {
-  "transport": "GLASSBORO EAS",
+  "city": "GLASSBORO EAS",
   "state": "NJ",
   "price": 1365,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "GLASSBORO WE",
+  "city": "GLASSBORO WE",
   "state": "NJ",
   "price": 1365,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "GRAHAM 98338",
+  "city": "GRAHAM 98338",
   "state": "WA",
   "price": 2555,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "HAMMOND 46320",
+  "city": "HAMMOND 46320",
   "state": "IN",
   "Column7": 1655,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "HAMPTON,VA 236",
+  "city": "HAMPTON,VA 236",
   "state": "VA",
   "price": 1545,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "HARRISBURG 17",
+  "city": "HARRISBURG 17",
   "state": "PA",
   "price": 1405,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "HARTFORD 0605",
+  "city": "HARTFORD 0605",
   "state": "CT",
   "price": 1380,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "HARTFORD SPRI",
+  "city": "HARTFORD SPRI",
   "state": "CT",
   "price": 1380,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "HAYWARD - DESE",
+  "city": "HAYWARD - DESE",
   "state": "CA",
   "price": 2230,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "HAYWARD 94545",
+  "city": "HAYWARD 94545",
   "state": "CA",
   "price": 2230,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "HELENA 59601",
+  "city": "HELENA 59601",
   "state": "MT",
   "price": 2955,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "HONOLULU ( LIHU",
+  "city": "HONOLULU ( LIHU",
   "state": "HI",
   "price": 4770,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "HONOLULU (KAILU",
+  "city": "HONOLULU (KAILU",
   "state": "HI",
   "price": 4385,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "HONOLULU (KAP",
+  "city": "HONOLULU (KAP",
   "state": "HI",
   "price": 3655,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "HONOLULU (MAUI",
+  "city": "HONOLULU (MAUI",
   "state": "HI",
   "price": 3955,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "HOUSTON 77073",
+  "city": "HOUSTON 77073",
   "state": "TX",
   "price": 1530,
   "port": "Houston, TX"
  },
  {
-  "transport": "HOUSTON EAST",
+  "city": "HOUSTON EAST",
   "state": "TX",
   "price": 1530,
   "port": "Houston, TX"
  },
  {
-  "transport": "INDIANAPOLIS 46",
+  "city": "INDIANAPOLIS 46",
   "state": "IN",
   "Column7": 1555,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "IONIA, MI 48875",
+  "city": "IONIA, MI 48875",
   "state": "MI",
   "Column7": 1865,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "JACKSON 39073",
+  "city": "JACKSON 39073",
   "state": "MS",
   "price": 1935,
   "port": "Houston, TX"
  },
  {
-  "transport": "JACKSONVILLE E",
+  "city": "JACKSONVILLE E",
   "state": "FL",
   "price": 1355,
   "port": "Savannah, GA"
  },
  {
-  "transport": "JACKSONVILLE N",
+  "city": "JACKSONVILLE N",
   "state": "FL",
   "price": 1355,
   "port": "Savannah, GA"
  },
  {
-  "transport": "JACKSONVILLE W",
+  "city": "JACKSONVILLE W",
   "state": "FL",
   "price": 1355,
   "port": "Savannah, GA"
  },
  {
-  "transport": "KANSAS CITY 661",
+  "city": "KANSAS CITY 661",
   "state": "KS",
   "price": 2005,
   "secondprice": "1850 GA",
@@ -608,49 +608,49 @@
   "secondport": "2. Savannah, GA"
  },
  {
-  "transport": "KINCHELOE (MI)",
+  "city": "KINCHELOE (MI)",
   "state": "MI",
   "Column7": 2230,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "KNOXVILLE 3735",
+  "city": "KNOXVILLE 3735",
   "state": "TN",
   "price": 1580,
   "port": "Savannah, GA"
  },
  {
-  "transport": "LANSING 48917",
+  "city": "LANSING 48917",
   "state": "MI",
   "price": 1680,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "LAS VEGAS 8911",
+  "city": "LAS VEGAS 8911",
   "state": "NV",
   "price": 2155,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "LEXINGTON EAS",
+  "city": "LEXINGTON EAS",
   "state": "KY",
   "price": 1670,
   "port": "Savannah, GA"
  },
  {
-  "transport": "LEXINGTON WES",
+  "city": "LEXINGTON WES",
   "state": "KY",
   "price": 1670,
   "port": "Savannah, GA"
  },
  {
-  "transport": "LINCOLN 68366",
+  "city": "LINCOLN 68366",
   "state": "NE",
   "Column7": 1955,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "LITTLE ROCK 720",
+  "city": "LITTLE ROCK 720",
   "state": "AR",
   "price": 1950,
   "secondprice": "1860 GA",
@@ -658,181 +658,181 @@
   "secondport": "2. Savannah, GA"
  },
  {
-  "transport": "LONG BEACH (CA",
+  "city": "LONG BEACH (CA",
   "state": "CA",
   "price": 1970,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "LONG ISLAND 11",
+  "city": "LONG ISLAND 11",
   "state": "NY",
   "price": 1405,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "LONGVIEW, TX 75",
+  "city": "LONGVIEW, TX 75",
   "state": "TX",
   "price": 1705,
   "port": "Houston, TX"
  },
  {
-  "transport": "LOS ANGELES 90",
+  "city": "LOS ANGELES 90",
   "state": "CA",
   "price": 2035,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "LOUISVILLE (KY)",
+  "city": "LOUISVILLE (KY)",
   "state": "KY",
   "price": 1670,
   "port": "Savannah, GA"
  },
  {
-  "transport": "LUFKIN, TX 75904",
+  "city": "LUFKIN, TX 75904",
   "state": "TX",
   "price": 1655,
   "port": "Houston, TX"
  },
  {
-  "transport": "LUMBERTON, NC",
+  "city": "LUMBERTON, NC",
   "state": "NC",
   "price": 1480,
   "port": "Savannah, GA"
  },
  {
-  "transport": "LYMAN 04002",
+  "city": "LYMAN 04002",
   "state": "ME",
   "price": 1555,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "MACON (GA) 310",
+  "city": "MACON (GA) 310",
   "state": "GA",
   "price": 1405,
   "port": "Savannah, GA"
  },
  {
-  "transport": "MADISON (WI) 53",
+  "city": "MADISON (WI) 53",
   "state": "WI",
   "Column7": 1780,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "MADISON SOUTH",
+  "city": "MADISON SOUTH",
   "state": "WI",
   "Column7": 1780,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "MARTINEZ 94553",
+  "city": "MARTINEZ 94553",
   "state": "CA",
   "price": 2245,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "MCALLEN, TX 785",
+  "city": "MCALLEN, TX 785",
   "state": "TX",
   "price": 1745,
   "port": "Houston, TX"
  },
  {
-  "transport": "MEBANE 27302",
+  "city": "MEBANE 27302",
   "state": "NC",
   "price": 1455,
   "port": "Savannah, GA"
  },
  {
-  "transport": "MEMPHIS 38118",
+  "city": "MEMPHIS 38118",
   "state": "TN",
   "price": 1635,
   "port": "Savannah, GA"
  },
  {
-  "transport": "Mentone (CA) 923",
+  "city": "Mentone (CA) 923",
   "state": "CA",
   "price": 2095,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "MIAMI CENTRAL",
+  "city": "MIAMI CENTRAL",
   "state": "FL",
   "price": 1525,
   "port": "Savannah, GA"
  },
  {
-  "transport": "MIAMI NORTH 33",
+  "city": "MIAMI NORTH 33",
   "state": "FL",
   "price": 1525,
   "port": "Savannah, GA"
  },
  {
-  "transport": "MIAMI SOUTH 33",
+  "city": "MIAMI SOUTH 33",
   "state": "FL",
   "price": 1525,
   "port": "Savannah, GA"
  },
  {
-  "transport": "MILWAUKEE 5311",
+  "city": "MILWAUKEE 5311",
   "state": "WI",
   "Column7": 1795,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "MILWAUKEE NOR",
+  "city": "MILWAUKEE NOR",
   "state": "WI",
   "Column7": 1795,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "Milwaukee South (",
+  "city": "Milwaukee South (",
   "state": "WI",
   "Column7": 1795,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "MINNEAPOLIS 55",
+  "city": "MINNEAPOLIS 55",
   "state": "MN",
   "Column7": 1905,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "MINNEAPOLIS NO",
+  "city": "MINNEAPOLIS NO",
   "state": "MN",
   "Column7": 1905,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "MOBILE (AL) 3661",
+  "city": "MOBILE (AL) 3661",
   "state": "AL",
   "price": 1530,
   "port": "Savannah, GA"
  },
  {
-  "transport": "MOBILE SOUTH (",
+  "city": "MOBILE SOUTH (",
   "state": "AL",
   "price": 1530,
   "port": "Savannah, GA"
  },
  {
-  "transport": "MOCKSVILLE, NC",
+  "city": "MOCKSVILLE, NC",
   "state": "NC",
   "price": 1455,
   "port": "Savannah, GA"
  },
  {
-  "transport": "MONTGOMERY 3",
+  "city": "MONTGOMERY 3",
   "state": "AL",
   "price": 1530,
   "port": "Savannah, GA"
  },
  {
-  "transport": "NASHVILLE 37090",
+  "city": "NASHVILLE 37090",
   "state": "TN",
   "price": 1580,
   "port": "Savannah, GA"
  },
  {
-  "transport": "NEW ORLEANS 7",
+  "city": "NEW ORLEANS 7",
   "state": "LA",
   "price": 1755,
   "secondprice": "1690 GA",
@@ -840,259 +840,259 @@
   "secondport": "2. Savannah, GA"
  },
  {
-  "transport": "NEWBURGH\/Marl",
+  "city": "NEWBURGH\/Marl",
   "state": "NY",
   "price": 1395,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "NORTH BOSTON",
+  "city": "NORTH BOSTON",
   "state": "MA",
   "price": 1505,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "NORTH CHARLES",
+  "city": "NORTH CHARLES",
   "state": "SC",
   "price": 1380,
   "port": "Savannah, GA"
  },
  {
-  "transport": "NORTH SEATTLE",
+  "city": "NORTH SEATTLE",
   "state": "WA",
   "price": 2555,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "OCALA 34482",
+  "city": "OCALA 34482",
   "state": "FL",
   "price": 1455,
   "port": "Savannah, GA"
  },
  {
-  "transport": "OGDEN (UT) 8440",
+  "city": "OGDEN (UT) 8440",
   "state": "UT",
   "price": 2405,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "OKLAHOMA CITY",
+  "city": "OKLAHOMA CITY",
   "state": "OK",
   "price": 1855,
   "port": "Houston, TX"
  },
  {
-  "transport": "ORLANDO (FL) 32",
+  "city": "ORLANDO (FL) 32",
   "state": "FL",
   "price": 1445,
   "port": "Savannah, GA"
  },
  {
-  "transport": "ORLANDO NORT",
+  "city": "ORLANDO NORT",
   "state": "FL",
   "price": 1445,
   "port": "Savannah, GA"
  },
  {
-  "transport": "ORLANDO SOUT",
+  "city": "ORLANDO SOUT",
   "state": "FL",
   "price": 1445,
   "port": "Savannah, GA"
  },
  {
-  "transport": "PASCO (WA) 9930",
+  "city": "PASCO (WA) 9930",
   "state": "WA",
   "price": 2630,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "PEORIA (IL) 61554",
+  "city": "PEORIA (IL) 61554",
   "state": "IL",
   "Column7": 1705,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "PHILADELPHIA (P",
+  "city": "PHILADELPHIA (P",
   "state": "PA",
   "price": 1405,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "PHILADELPHIA E",
+  "city": "PHILADELPHIA E",
   "state": "PA",
   "price": 1405,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "PHOENIX (AZ) 85",
+  "city": "PHOENIX (AZ) 85",
   "state": "AZ",
   "price": 2185,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "PITTSBURGH EA",
+  "city": "PITTSBURGH EA",
   "state": "PA",
   "price": 1605,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "PITTSBURGH NO",
+  "city": "PITTSBURGH NO",
   "state": "PA",
   "price": 1605,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "PITTSBURGH SO",
+  "city": "PITTSBURGH SO",
   "state": "PA",
   "price": 1605,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "PITTSBURGH WE",
+  "city": "PITTSBURGH WE",
   "state": "PA",
   "price": 1605,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "PORTLAND NORT",
+  "city": "PORTLAND NORT",
   "state": "OR",
   "price": 2505,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "PORTLAND SOUT",
+  "city": "PORTLAND SOUT",
   "state": "OR",
   "price": 2505,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "PUNTA GORDA (F",
+  "city": "PUNTA GORDA (F",
   "state": "FL",
   "price": 1505,
   "port": "Savannah, GA"
  },
  {
-  "transport": "Punta Gorda South",
+  "city": "Punta Gorda South",
   "state": "FL",
   "price": 1505,
   "port": "Savannah, GA"
  },
  {
-  "transport": "RALEIGH (NC) 28",
+  "city": "RALEIGH (NC) 28",
   "state": "NC",
   "price": 1445,
   "port": "Savannah, GA"
  },
  {
-  "transport": "RALEIGH NORTH",
+  "city": "RALEIGH NORTH",
   "state": "NC",
   "price": 1445,
   "port": "Savannah, GA"
  },
  {
-  "transport": "RANCHO CUCAM",
+  "city": "RANCHO CUCAM",
   "state": "CA",
   "price": 2105,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "Rapid City",
+  "city": "Rapid City",
   "state": "SD",
   "Column7": 2185,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "REDDING (CA) 96",
+  "city": "REDDING (CA) 96",
   "state": "CA",
   "price": 2505,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "RENO (NV) 89506",
+  "city": "RENO (NV) 89506",
   "state": "NV",
   "price": 2355,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "RICHMOND (VA) 2",
+  "city": "RICHMOND (VA) 2",
   "state": "VA",
   "price": 1480,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "RICHMOND EAST",
+  "city": "RICHMOND EAST",
   "state": "VA",
   "price": 1480,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "ROCHESTER (NY",
+  "city": "ROCHESTER (NY",
   "state": "NY",
   "price": 1605,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "SACRAMENTO (C",
+  "city": "SACRAMENTO (C",
   "state": "CA",
   "price": 2235,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "SALT LAKE CITY (",
+  "city": "SALT LAKE CITY (",
   "state": "UT",
   "price": 2405,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "SALT LAKE CITY (",
+  "city": "SALT LAKE CITY (",
   "state": "UT",
   "price": 2405,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "SAN ANTONIO (T",
+  "city": "SAN ANTONIO (T",
   "state": "TX",
   "price": 1675,
   "port": "Houston, TX"
  },
  {
-  "transport": "SAN BERNARDIN",
+  "city": "SAN BERNARDIN",
   "state": "CA",
   "price": 2055,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "SAN DIEGO (CA)",
+  "city": "SAN DIEGO (CA)",
   "state": "CA",
   "price": 2125,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "SAN JOSE (CA) 9",
+  "city": "SAN JOSE (CA) 9",
   "state": "CA",
   "price": 2245,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "SAVANNAH (GA) 3",
+  "city": "SAVANNAH (GA) 3",
   "state": "GA",
   "price": 1305,
   "port": "Savannah, GA"
  },
  {
-  "transport": "SCRANTON (PA)",
+  "city": "SCRANTON (PA)",
   "state": "PA",
   "price": 1430,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "SEAFORD (DE) 19",
+  "city": "SEAFORD (DE) 19",
   "state": "DE",
   "price": 1430,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "SHREVEPORT (L",
+  "city": "SHREVEPORT (L",
   "state": "LA",
   "price": 1755,
   "secondprice": "1710 GA",
@@ -1100,181 +1100,181 @@
   "secondport": "2. Savannah, GA"
  },
  {
-  "transport": "SIKESTON (MO) 6",
+  "city": "SIKESTON (MO) 6",
   "state": "MO",
   "Column7": 1905,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "SO SACRAMENT",
+  "city": "SO SACRAMENT",
   "state": "CA",
   "price": 2235,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "SO SACRAMENT",
+  "city": "SO SACRAMENT",
   "state": "CA",
   "price": 2235,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "SOMERVILLE (NJ",
+  "city": "SOMERVILLE (NJ",
   "state": "NJ",
   "price": 1335,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "SOUTH BOSTON",
+  "city": "SOUTH BOSTON",
   "state": "MA",
   "price": 1505,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "SOUTHERN ILLIN",
+  "city": "SOUTHERN ILLIN",
   "state": "IL",
   "Column7": 1700,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "SPARTANBURG (",
+  "city": "SPARTANBURG (",
   "state": "GA",
   "price": 1430,
   "port": "Savannah, GA"
  },
  {
-  "transport": "SPOKANE (WA) 9",
+  "city": "SPOKANE (WA) 9",
   "state": "WA",
   "price": 2680,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "SPRINGFIELD (M",
+  "city": "SPRINGFIELD (M",
   "state": "MO",
   "Column7": 1875,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "ST. CLOUD (MN) 5",
+  "city": "ST. CLOUD (MN) 5",
   "state": "MN",
   "Column7": 1905,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "ST. LOUIS (MO) 6",
+  "city": "ST. LOUIS (MO) 6",
   "state": "MO",
   "Column7": 1730,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "SUN VALLEY (CA)",
+  "city": "SUN VALLEY (CA)",
   "state": "CA",
   "price": 2085,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "SYRACUSE (NY)",
+  "city": "SYRACUSE (NY)",
   "state": "NY",
   "price": 1480,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "TALLAHASSEE (F",
+  "city": "TALLAHASSEE (F",
   "state": "FL",
   "price": 1505,
   "port": "Savannah, GA"
  },
  {
-  "transport": "TAMPA SOUTH (F",
+  "city": "TAMPA SOUTH (F",
   "state": "FL",
   "price": 1505,
   "port": "Savannah, GA"
  },
  {
-  "transport": "TANNER (AL) 356",
+  "city": "TANNER (AL) 356",
   "state": "AL",
   "price": 1530,
   "port": "Savannah, GA"
  },
  {
-  "transport": "TIFTON (GA) 3179",
+  "city": "TIFTON (GA) 3179",
   "state": "GA",
   "price": 1415,
   "port": "Savannah, GA"
  },
  {
-  "transport": "TRENTON (NJ) 08",
+  "city": "TRENTON (NJ) 08",
   "state": "NJ",
   "price": 1330,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "TUCSON AZ) 8570",
+  "city": "TUCSON AZ) 8570",
   "state": "AZ",
   "price": 2230,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "TULSA (OK) 7410",
+  "city": "TULSA (OK) 7410",
   "state": "OK",
   "price": 1925,
   "port": "Houston, TX"
  },
  {
-  "transport": "VALLEJO (CA) 94",
+  "city": "VALLEJO (CA) 94",
   "state": "CA",
   "price": 2245,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "VAN NUYS (CA) 9",
+  "city": "VAN NUYS (CA) 9",
   "state": "CA",
   "price": 2105,
   "port": "Los Angeles, CA"
  },
  {
-  "transport": "WACO (TX) 76501",
+  "city": "WACO (TX) 76501",
   "state": "TX",
   "price": 1630,
   "port": "Houston, TX"
  },
  {
-  "transport": "WALTON (KY) 410",
+  "city": "WALTON (KY) 410",
   "state": "KY",
   "price": 1670,
   "port": "Savannah, GA"
  },
  {
-  "transport": "WASHINGTON (D",
+  "city": "WASHINGTON (D",
   "state": "MD",
   "price": 1475,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "WEST PALM BEA",
+  "city": "WEST PALM BEA",
   "state": "FL",
   "price": 1525,
   "port": "Savannah, GA"
  },
  {
-  "transport": "WEST WARREN (",
+  "city": "WEST WARREN (",
   "state": "MA",
   "price": 1505,
   "port": "Elizabeth, NJ"
  },
  {
-  "transport": "WHEELING (IL) 60",
+  "city": "WHEELING (IL) 60",
   "state": "IL",
   "Column7": 1675,
   "port": "Indianapolis, IN"
  },
  {
-  "transport": "WICHITA (KS) 672",
+  "city": "WICHITA (KS) 672",
   "state": "KS",
   "price": 2005,
   "port": "Houston, TX"
  },
  {
-  "transport": "YORK HAVEN (PA",
+  "city": "YORK HAVEN (PA",
   "state": "PA",
   "price": 1430,
   "port": "Elizabeth, NJ"
