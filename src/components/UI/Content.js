@@ -4,10 +4,18 @@ import background from "../../assets/cargo.jpg";
 import { Formik, Form } from "formik";
 import FormikControl from "../InputComponents/FormikControl";
 const Content = (props) => {
-  const reset =(value)=>{
-    value='';
-    return [{key:'Choose',value:''}];
-  }
+  const resetAll = (formik) => {
+    formik.values.state = "";
+    formik.values.city = "";
+    formik.values.type = "";
+    return [{ key: "Choose", value: "" }];
+  };
+  const resetCity = (formik) => {
+    formik.values.city = "";
+    formik.values.type = "";
+    return [{ key: "Choose", value: "" }];
+  };
+
   return (
     <div className={classes.content}>
       <img className={classes.logo} src={background} alt="background"></img>
@@ -18,7 +26,7 @@ const Content = (props) => {
             auction: "",
             state: "",
             city: "",
-            car: "",
+            type: "",
           }}
           onChange={(values) => {
             console.log(values);
@@ -41,7 +49,9 @@ const Content = (props) => {
                   name="state"
                   control="select"
                   label="State:"
-                  options={formik.values.auction?props.states:reset(formik.values.state)}
+                  options={
+                    formik.values.auction ? props.states : resetAll(formik)
+                  }
                   disabled={props.stateDisable}
                 />
                 <FormikControl
@@ -49,16 +59,22 @@ const Content = (props) => {
                   name="city"
                   control="select"
                   label="City:"
-                   options={formik.values.state?props.cities:reset(formik.values.city)}
+                  options={
+                    formik.values.state ? props.cities : resetCity(formik)
+                  }
                   disabled={props.cityDisable}
                 />
 
                 <FormikControl
                   className={classes.control}
-                  name="car"
+                  name="type"
                   control="select"
                   label="Type:"
-                  options={props.types}
+                  options={
+                    formik.values.city
+                      ? props.types
+                      :[{ key: "Choose", value: "" }]
+                  }
                   disabled={props.typeDisable}
                 />
               </Form>
