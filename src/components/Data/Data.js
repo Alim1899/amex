@@ -10,6 +10,9 @@ const Data = (props) => {
   const [state, setState] = useState(defaultValue);
   const [city, setCity] = useState(defaultValue);
   const [type, setType] = useState(defaultValue);
+  const [portOne, setPortOne] = useState("----|----");
+  const [portTwo, setPortTwo] = useState("");
+  const [activeCity, setActiveCity] = useState({});
 
   //\\\\\\\\\\\\\\\\\\\\Default auctions and car types
   const auctions = [
@@ -30,7 +33,6 @@ const Data = (props) => {
     { key: "Other", value: "Other" },
   ];
   //\\\\\\\\\\\\\\\\\\Variables for retrieve data
-const types = [];
   const states = defaultValue;
   const cities = defaultValue;
 
@@ -38,6 +40,8 @@ const types = [];
   const stateShortNames = [];
   const cityByState = [];
   const handleChange = (e) => {
+    setPortOne("----|----");
+        setPortTwo("");
     if (e.target.id === "auction") {
       if (e.target.value === "Copart") {
         copart.forEach((el) => {
@@ -57,6 +61,8 @@ const types = [];
         setCityDisable(true);
         setStateDisable(true);
         setTypeDisable(true);
+        setPortOne("----|----");
+        setPortTwo("");
       }
     } else if (e.target.id === "state") {
       setType(defaultValue);
@@ -66,31 +72,80 @@ const types = [];
       if (e.target.value === "") {
         setCityDisable(true);
         setTypeDisable(true);
+        setPortOne("----|----");
+        setPortTwo("");
         cities.splice(1, cities.length);
         return;
-      }else{
-          copart.forEach((el) => {
-        if (e.target.value === el.state) {
-          if (!cityByState.includes(el.city)) cityByState.push(el.city);
-        }
-      });
-      cityByState.forEach((city) => {
-        let key = (Math.random() * Math.random() * 10000000).toFixed();
-        cities.push({ key: key * key, value: city });
-      });
+      } else {
+        copart.forEach((el) => {
+          if (e.target.value === el.state) {
+            if (!cityByState.includes(el.city)) cityByState.push(el.city);
+          }
+        });
+        cityByState.forEach((city) => {
+          let key = (Math.random() * Math.random() * 10000000).toFixed();
+          cities.push({ key: key * key, value: city });
+        });
 
-      setCity(cities);
-      setCityDisable(false);
+        setCity(cities);
+        setCityDisable(false);
       }
 
-    
+
+
+
+
+
+
+
+
+
     } else if (e.target.id === "city") {
-      if (e.target.value.length > 0) {
+     
+      if (e.target.value) {
+        setPortOne("----|----");
+        setPortTwo("");
         setType(carTypes)
         setTypeDisable(false);
+        setActiveCity({ name: e.target.value });
+      
       } else {
+        setType(defaultValue)
         setTypeDisable(true);
+        
       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    } else if (e.target.id === "type") {
+      console.log(activeCity);
+      if (!e.target.value) {
+        setPortOne("----|----");
+        setPortTwo("");
+      }else{
+        copart.find((el) => {
+          if (el.city === activeCity.name) {
+            console.log('ByTypeField');
+            return setPortOne(`${el.port} | ${el.price}`);
+          } else return null;
+        });
+      }
+      console.log(portOne);
+
+      // console.log(e.target.value, activeCity);
     }
   };
 
@@ -105,6 +160,8 @@ const types = [];
         cities={city}
         states={state}
         types={type}
+        portOne={portOne}
+        portTwo={portTwo}
       ></Content>
     </div>
   );

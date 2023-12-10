@@ -56,7 +56,7 @@
  {
   "city": "APPLETON, WI 54",
   "state": "WI",
-  "Column7": 1845,
+  "price": 1845,
   "port": "Indianapolis, IN"
  },
  {
@@ -138,7 +138,7 @@
  {
   "city": "BISMARCK (ND) 5",
   "state": "ND",
-  "Column7": 2355,
+  "price": 2355,
   "port": "Indianapolis, IN",
   "secondport": "2. Elizabeth, NJ"
  },
@@ -170,7 +170,7 @@
  {
   "city": "CASPER, WY 826",
   "state": "WY",
-  "Column7": 2495,
+  "price": 2495,
   "port": "Indianapolis, IN"
  },
  {
@@ -188,13 +188,13 @@
  {
   "city": "CHICAGO NORTH",
   "state": "IL",
-  "Column7": 1675,
+  "price": 1675,
   "port": "Indianapolis, IN"
  },
  {
   "city": "CHICAGO SOUTH",
   "state": "IL",
-  "Column7": 1675,
+  "price": 1675,
   "port": "Indianapolis, IN"
  },
  {
@@ -206,7 +206,7 @@
  {
   "city": "CICERO, IN 46034",
   "state": "IN",
-  "Column7": 1480,
+  "price": 1480,
   "port": "Indianapolis, IN"
  },
  {
@@ -232,7 +232,7 @@
  {
   "city": "COLUMBIA MO 65",
   "state": "MO",
-  "Column7": 1875,
+  "price": 1875,
   "port": "Indianapolis, IN"
  },
  {
@@ -244,7 +244,7 @@
  {
   "city": "COLUMBUS (OH)",
   "state": "OH",
-  "Column7": 1665,
+  "price": 1665,
   "port": "Indianapolis, IN"
  },
  {
@@ -274,13 +274,13 @@
  {
   "city": "CRASHEDTOYS E",
   "state": "MN",
-  "Column7": 1860,
+  "price": 1860,
   "port": "Indianapolis, IN"
  },
  {
   "city": "CRASHEDTOYS E",
   "state": "IA",
-  "Column7": 1855,
+  "price": 1855,
   "port": "Indianapolis, IN"
  },
  {
@@ -292,7 +292,7 @@
  {
   "city": "CRASHEDTOYS M",
   "state": "MN",
-  "Column7": 1905,
+  "price": 1905,
   "port": "Indianapolis, IN"
  },
  {
@@ -322,13 +322,13 @@
  {
   "city": "DAVENPORT (IA)",
   "state": "IA",
-  "Column7": 1855,
+  "price": 1855,
   "port": "Indianapolis, IN"
  },
  {
   "city": "DAYTON, OH 454",
   "state": "OH",
-  "Column7": 1675,
+  "price": 1675,
   "port": "Indianapolis, IN"
  },
  {
@@ -354,7 +354,7 @@
  {
   "city": "DES MOINES (IA)",
   "state": "IA",
-  "Column7": 1875,
+  "price": 1875,
   "port": "Indianapolis, IN"
  },
  {
@@ -372,7 +372,7 @@
  {
   "city": "DYER (IN) 46311",
   "state": "IN",
-  "Column7": 1655,
+  "price": 1655,
   "port": "Indianapolis, IN"
  },
  {
@@ -422,7 +422,7 @@
  {
   "city": "FORT WAYNE 468",
   "state": "IN",
-  "Column7": 1630,
+  "price": 1630,
   "port": "Indianapolis, IN"
  },
  {
@@ -482,7 +482,7 @@
  {
   "city": "HAMMOND 46320",
   "state": "IN",
-  "Column7": 1655,
+  "price": 1655,
   "port": "Indianapolis, IN"
  },
  {
@@ -566,13 +566,13 @@
  {
   "city": "INDIANAPOLIS 46",
   "state": "IN",
-  "Column7": 1555,
+  "price": 1555,
   "port": "Indianapolis, IN"
  },
  {
   "city": "IONIA, MI 48875",
   "state": "MI",
-  "Column7": 1865,
+  "price": 1865,
   "port": "Indianapolis, IN"
  },
  {
@@ -610,7 +610,7 @@
  {
   "city": "KINCHELOE (MI)",
   "state": "MI",
-  "Column7": 2230,
+  "price": 2230,
   "port": "Indianapolis, IN"
  },
  {
@@ -646,7 +646,7 @@
  {
   "city": "LINCOLN 68366",
   "state": "NE",
-  "Column7": 1955,
+  "price": 1955,
   "port": "Indianapolis, IN"
  },
  {
@@ -714,13 +714,13 @@
  {
   "city": "MADISON (WI) 53",
   "state": "WI",
-  "Column7": 1780,
+  "price": 1780,
   "port": "Indianapolis, IN"
  },
  {
   "city": "MADISON SOUTH",
   "state": "WI",
-  "Column7": 1780,
+  "price": 1780,
   "port": "Indianapolis, IN"
  },
  {
@@ -774,31 +774,31 @@
  {
   "city": "MILWAUKEE 5311",
   "state": "WI",
-  "Column7": 1795,
+  "price": 1795,
   "port": "Indianapolis, IN"
  },
  {
   "city": "MILWAUKEE NOR",
   "state": "WI",
-  "Column7": 1795,
+  "price": 1795,
   "port": "Indianapolis, IN"
  },
  {
   "city": "Milwaukee South (",
   "state": "WI",
-  "Column7": 1795,
+  "price": 1795,
   "port": "Indianapolis, IN"
  },
  {
   "city": "MINNEAPOLIS 55",
   "state": "MN",
-  "Column7": 1905,
+  "price": 1905,
   "port": "Indianapolis, IN"
  },
  {
   "city": "MINNEAPOLIS NO",
   "state": "MN",
-  "Column7": 1905,
+  "price": 1905,
   "port": "Indianapolis, IN"
  },
  {
@@ -908,7 +908,7 @@
  {
   "city": "PEORIA (IL) 61554",
   "state": "IL",
-  "Column7": 1705,
+  "price": 1705,
   "port": "Indianapolis, IN"
  },
  {
@@ -998,7 +998,7 @@
  {
   "city": "Rapid City",
   "state": "SD",
-  "Column7": 2185,
+  "price": 2185,
   "port": "Indianapolis, IN"
  },
  {
@@ -1102,7 +1102,7 @@
  {
   "city": "SIKESTON (MO) 6",
   "state": "MO",
-  "Column7": 1905,
+  "price": 1905,
   "port": "Indianapolis, IN"
  },
  {
@@ -1132,7 +1132,7 @@
  {
   "city": "SOUTHERN ILLIN",
   "state": "IL",
-  "Column7": 1700,
+  "price": 1700,
   "port": "Indianapolis, IN"
  },
  {
@@ -1150,19 +1150,19 @@
  {
   "city": "SPRINGFIELD (M",
   "state": "MO",
-  "Column7": 1875,
+  "price": 1875,
   "port": "Indianapolis, IN"
  },
  {
   "city": "ST. CLOUD (MN) 5",
   "state": "MN",
-  "Column7": 1905,
+  "price": 1905,
   "port": "Indianapolis, IN"
  },
  {
   "city": "ST. LOUIS (MO) 6",
   "state": "MO",
-  "Column7": 1730,
+  "price": 1730,
   "port": "Indianapolis, IN"
  },
  {
@@ -1264,7 +1264,7 @@
  {
   "city": "WHEELING (IL) 60",
   "state": "IL",
-  "Column7": 1675,
+  "price": 1675,
   "port": "Indianapolis, IN"
  },
  {

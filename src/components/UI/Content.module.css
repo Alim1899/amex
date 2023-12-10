@@ -13,13 +13,13 @@
   width: 90%;
   margin: auto;
 }
-.form > div {
+.form > label {
   display: grid;
   text-align: left;
   grid-template-columns: 20% 80%;
   margin-top: 30px;
 }
-.form > div > select {
+.form > label > select, .form>label>p {
   border: none;
   outline: none;
   height: 30px;
@@ -27,36 +27,19 @@
   text-align: center;
   width: 70%;
   font-weight: 900;
-
   margin: auto;
 }
-.price {
-  
-  margin: auto;
-border-radius: 40px;
-background-color: rgba(249, 250, 250, 0.6);
-display: grid;
-grid-template-rows: 50% 50%;
-height: 10vh;
-max-height: 140px;
-margin-top: 2vh;
-
+.form>label>p {
+  border: none;
+  outline: none;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 70%;
+  background-color: rgba(249, 250, 250, 0.9);
+ 
 }
-.price > h4 {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    width: 90%;
-    max-width: 300px;
-    margin: auto;
-    height: 30px;
-    background-color: rgba(189, 189, 197, .5);
-    border-radius: 40px;
 
-
-
-}
-.price>h4>span{
-    margin-left: -25px;
-    color:crimson;
-    font-weight: 900;
+.form>label{
+  font-weight: 900;
 }
