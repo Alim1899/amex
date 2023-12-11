@@ -37,33 +37,62 @@ const Content = (props) => {
         setCityValue(defaultValue);
         setTypeDisable(true);
         setTypeValue(defaultValue);
+        setPortOne("");
+        setPortOnePrice("");
       }
     } else if (e.target.id === "state") {
       if (e.target.value) {
-        setCityDisable(false);
-        setCityValue(cityOptions);
+        if (cityValue.length > 1) {
+          setTypeDisable(true);
+          setPortOne("");
+          setPortOnePrice("");
+          setTypeValue(defaultValue);
+          setCityDisable(true);
+          setCityValue(defaultValue);
+        }
+        setTimeout(() => {
+          setCityDisable(false);
+          setCityValue(cityOptions);
+        }, 200);
       } else {
         setTypeDisable(true);
+        setPortOne("");
+        setPortOnePrice("");
         setTypeValue(defaultValue);
         setCityDisable(true);
         setCityValue(defaultValue);
       }
     } else if (e.target.id === "city") {
       if (e.target.value) {
-        setTypeDisable(false);
-        setTypeValue(typeOptions);
+        if (typeValue.length > 1) {
+          setTypeDisable(true);
+          setPortOne("");
+          setPortOnePrice("");
+          setTypeValue(defaultValue);
+        }
+        setTimeout(() => {
+          setTypeDisable(false);
+          setTypeValue(typeOptions);
+        }, 200);
       } else {
+        setPortOne("");
+        setPortOnePrice("");
         setTypeDisable(true);
         setTypeValue(defaultValue);
       }
     } else if (e.target.id === "type") {
       if (e.target.value) {
-        setPortOne("New jersey");
+        setPortOne("");
+        setPortOnePrice("");
+       setTimeout(() => {
+         setPortOne("New jersey");
         setPortOnePrice("1550");
+       }, 200);
+       
         if (portTwo) {
           setPortTwo("Ganton");
           setPortTwoPrice("1450");
-        }else{
+        } else {
           setPortTwo("");
           setPortTwoPrice("p");
         }
