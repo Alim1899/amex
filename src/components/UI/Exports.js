@@ -8,6 +8,22 @@ export  const defaultValue = [{ key: "Choose", value: "" }];
   { key: "Motorcycle", value: "Motorcycle" },
   { key: "Trailer", value: "Trailer" },
   { key: "Other", value: "Other" },];
+  export const stateOptions = [ { key: "Choose", value: "" },
+  { key: "Sedan", value: "Sedan" },
+  { key: "Hatchback", value: "Hatchback" },
+  { key: "SUV", value: "SUV" },
+  { key: "VAN", value: "VAN" },
+  { key: "Motorcycle", value: "Motorcycle" },
+  { key: "Trailer", value: "Trailer" },
+  { key: "Other", value: "Other" },];
+  export const cityOptions = [ { key: "Choose", value: "" },
+  { key: "Sedan", value: "Sedan" },
+  { key: "Hatchback", value: "Hatchback" },
+  { key: "SUV", value: "SUV" },
+  { key: "VAN", value: "VAN" },
+  { key: "Motorcycle", value: "Motorcycle" },
+  { key: "Trailer", value: "Trailer" },
+  { key: "Other", value: "Other" },];
 
 
  export const initialValues = {
