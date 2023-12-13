@@ -117,17 +117,17 @@
   "city": "BATON ROUGE 7",
   "state": "LA",
   "price": 1755,
-  "secondprice": "1640 GA",
+  "secondprice": 1640,
   "port": "Houston, TX",
-  "secondport": "2. Savannah, GA"
+  "secondport": "Savannah, GA"
  },
  {
   "city": "BILLINGS 59103",
   "state": "MT",
   "price": 2955,
-  "secondprice": "2495 GA",
+  "secondprice": 2495,
   "port": "Los Angeles, CA",
-  "secondport": "2. Savannah, GA"
+  "secondport": "Savannah, GA"
  },
  {
   "city": "BIRMINGHAM 350",
@@ -140,13 +140,13 @@
   "state": "ND",
   "price": 2355,
   "port": "Indianapolis, IN",
-  "secondport": "2. Elizabeth, NJ"
+  "secondport": "Elizabeth, NJ"
  },
  {
   "city": "BOISE 83651",
   "state": "ID",
   "price": 2725,
-  "secondprice": "2455 NJ",
+  "secondprice": 2455,
   "port": "Los Angeles, CA"
  },
  {
@@ -225,9 +225,9 @@
   "city": "COLORADO SPRI",
   "state": "CO",
   "price": 2105,
-  "secondprice": "1960 NJ",
+  "secondprice": 1960,
   "port": "Houston, TX",
-  "secondport": "2. Elizabeth, NJ"
+  "secondport": "Elizabeth, NJ"
  },
  {
   "city": "COLUMBIA MO 65",
@@ -335,9 +335,9 @@
   "city": "DENVER CENTRA",
   "state": "CO",
   "price": 2075,
-  "secondprice": "1910 NJ",
+  "secondprice": 1910,
   "port": "Houston, TX",
-  "secondport": "2. Elizabeth, NJ"
+  "secondport": "Elizabeth, NJ"
  },
  {
   "city": "DENVER SOUTH",
@@ -409,9 +409,9 @@
   "city": "FAYETTEVILLE (A",
   "state": "AR",
   "price": 1925,
-  "secondprice": "1870 GA",
+  "secondprice": 1870,
   "port": "Houston, TX",
-  "secondport": "2. Savannah, GA"
+  "secondport": "Savannah, GA"
  },
  {
   "city": "FLINT 48423",
@@ -603,9 +603,9 @@
   "city": "KANSAS CITY 661",
   "state": "KS",
   "price": 2005,
-  "secondprice": "1850 GA",
+  "secondprice": 1850,
   "port": "Houston, TX",
-  "secondport": "2. Savannah, GA"
+  "secondport": "Savannah, GA"
  },
  {
   "city": "KINCHELOE (MI)",
@@ -653,9 +653,9 @@
   "city": "LITTLE ROCK 720",
   "state": "AR",
   "price": 1950,
-  "secondprice": "1860 GA",
+  "secondprice": 1860,
   "port": "Houston, TX",
-  "secondport": "2. Savannah, GA"
+  "secondport": "Savannah, GA"
  },
  {
   "city": "LONG BEACH (CA",
@@ -835,9 +835,9 @@
   "city": "NEW ORLEANS 7",
   "state": "LA",
   "price": 1755,
-  "secondprice": "1690 GA",
+  "secondprice": 1690,
   "port": "Houston, TX",
-  "secondport": "2. Savannah, GA"
+  "secondport": "Savannah, GA"
  },
  {
   "city": "NEWBURGH\/Marl",
@@ -1095,21 +1095,15 @@
   "city": "SHREVEPORT (L",
   "state": "LA",
   "price": 1755,
-  "secondprice": "1710 GA",
+  "secondprice": 1710,
   "port": "Houston, TX",
-  "secondport": "2. Savannah, GA"
+  "secondport": "Savannah, GA"
  },
  {
   "city": "SIKESTON (MO) 6",
   "state": "MO",
   "price": 1905,
   "port": "Indianapolis, IN"
- },
- {
-  "city": "SO SACRAMENT",
-  "state": "CA",
-  "price": 2235,
-  "port": "Los Angeles, CA"
  },
  {
   "city": "SO SACRAMENT",

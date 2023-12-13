@@ -1,39 +1,30 @@
 import Content from "../UI/Content";
 import { useState } from "react";
 import copart from "../Data/Data.json";
-import {
-  defaultValue,
-  typeOptions,
-  auctionOptions,
-  stateOptions,
-  cityOptions,
-} from "../UI/Exports";
+import { defaultValue, typeOptions, auctionOptions } from "../UI/Exports";
 const Data = (props) => {
   const [stateDisable, setStateDisable] = useState(true);
   const [cityDisable, setCityDisable] = useState(true);
   const [typeDisable, setTypeDisable] = useState(true);
-  const [activeState,setActiveState] = useState("");
-  const [activeCity,setActiveCity] = useState("");
-  const [stateValue, setStateValue] = useState(stateOptions);
-  const [cityValue, setCityValue] = useState(cityOptions);
+  const [stateValue, setStateValue] = useState(defaultValue);
+  const [cityValue, setCityValue] = useState(defaultValue);
   const [typeValue, setTypeValue] = useState(typeOptions);
   const [portOne, setPortOne] = useState("");
-  const [portOnePrice, setPortOnePrice] = useState("");
   const [portTwo, setPortTwo] = useState("");
-  const [portTwoPrice, setPortTwoPrice] = useState("");
- const states = [defaultValue[0]];
- const cities = [defaultValue[0]];
+  const [ports, setPorts] = useState([]);
+  const states = [defaultValue[0]];
+  const cities = [defaultValue[0]];
   const handleChange = (e) => {
     if (e.target.id === "auction") {
       if (e.target.value === "Copart") {
         const shortNames = [];
-        copart.forEach(el=>{
-          if(!shortNames.includes(el.state))shortNames.push(el.state);         
-        })
-        shortNames.forEach(name=>{
-          let key =Math.random()*Math.random();
-          states.push({key:key, value:name})
-        })
+        copart.forEach((el) => {
+          if (!shortNames.includes(el.state)) shortNames.push(el.state);
+        });
+        shortNames.forEach((name) => {
+          let key = Math.random() * Math.random();
+          states.push({ key: key, value: name });
+        });
         setStateValue(states);
         setStateDisable(false);
       } else {
@@ -43,81 +34,68 @@ const Data = (props) => {
         setCityValue(defaultValue);
         setTypeDisable(true);
         setTypeValue(defaultValue);
-        setPortOne("");
-        setPortOnePrice("");
+       setPorts([]);
       }
     } else if (e.target.id === "state") {
-      setActiveCity(e.target.value);
       if (e.target.value) {
-       
-       console.log(activeCity);
+        const cityNames = [];
+        copart.forEach((el) => {
+          if (e.target.value === el.state) cityNames.push(el.city);
+        });
+        cityNames.forEach((city) => {
+          let key = Math.random() * Math.random();
+          cities.push({ key: key, value: city });
+        });
+
         if (cityValue.length > 1) {
           setTypeDisable(true);
-          setPortOne("");
-          setPortOnePrice("");
+          setPorts([]);
           setTypeValue(defaultValue);
           setCityDisable(true);
           setCityValue(defaultValue);
         }
-        
-        // const cityNames = [];
-        // copart.forEach(el=>{
-        //   if(!cityNames.includes(el.state))cityNames.push(el.state);         
-        // })
-        // cityNames.forEach(name=>{
-        //   let key =Math.random()*Math.random();
-        //   cities.push({key:key, value:name})
-        // })
-        
         setTimeout(() => {
           setCityDisable(false);
-          setCityValue(cityValue);
+          setCityValue(cities);
         }, 200);
       } else {
         setTypeDisable(true);
-        setPortOne("");
-        setPortOnePrice("");
+        setPorts([])
         setTypeValue(defaultValue);
         setCityDisable(true);
         setCityValue(defaultValue);
       }
     } else if (e.target.id === "city") {
       if (e.target.value) {
+        copart.forEach((el) => {
+          if (el.city === e.target.value) {
+            console.log(el.city===e.target.value);
+            setPortOne(`${el.port}/${el.price}`);
+            if (el.secondport) setPortTwo(`${el.secondport}/${el.secondprice}`);
+            console.log(portOne, portTwo);
+          }
+        });
+
         if (typeValue.length > 1) {
           setTypeDisable(true);
-          setPortOne("");
-          setPortOnePrice("");
           setTypeValue(defaultValue);
+          setPorts([]);
         }
         setTimeout(() => {
           setTypeDisable(false);
           setTypeValue(typeOptions);
         }, 200);
       } else {
-        setPortOne("");
-        setPortOnePrice("");
+        setPorts([]);
         setTypeDisable(true);
         setTypeValue(defaultValue);
       }
     } else if (e.target.id === "type") {
-      if (e.target.value) {
-        setPortOne("");
-        setPortOnePrice("");
-        setTimeout(() => {
-          setPortOne("New jersey");
-          setPortOnePrice("1550");
-        }, 200);
-
-        if (portTwo) {
-          setPortTwo("Ganton");
-          setPortTwoPrice("1450");
-        } else {
-          setPortTwo("");
-          setPortTwoPrice("p");
-        }
+       setPorts([portOne,portTwo]);
+      if (e.target.value) {       
+        console.log(ports);
       } else {
-        setPortOne("");
-        setPortOnePrice("");
+        setPorts([]);
       }
     }
   };
@@ -126,19 +104,15 @@ const Data = (props) => {
       <Content
         handleChange={handleChange}
         auctionOptions={auctionOptions}
-        stateOptions={stateOptions}
         stateDisable={stateDisable}
-        cityOptions={cityOptions}
         cityDisable={cityDisable}
         typeOptions={typeOptions}
         typeDisable={typeDisable}
         stateValue={stateValue}
         cityValue={cityValue}
         typeValue={typeValue}
-        portOne={portOne}
-        portOnePrice={portOnePrice}
-        portTwo={portTwo}
-        portTwoPrice={portTwoPrice}
+        portOne={ports[0]}
+        portTwo={ports[1]}
       ></Content>
     </div>
   );

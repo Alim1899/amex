@@ -57,9 +57,7 @@ const Content = (props) => {
               <label htmlFor="portOne">
                 Port/Price
                 <p id="portOne" name="portOne">
-                  {props.portOne
-                    ? `${props.portOne}/${props.portOnePrice}`
-                    : "----/----"}
+                  {props.portOne ? `${props.portOne}$` : "----/----"}
                 </p>
               </label>
 
@@ -67,9 +65,7 @@ const Content = (props) => {
                 <label htmlFor="portOne">
                   Port/Price<span>(optional)</span>
                   <p id="portOne" name="portOne">
-                    {props.portTwo
-                      ? `${props.portTwo}/${props.portTwoPrice}`
-                      : "----/----"}
+                    {props.portTwo ? `${props.portTwo}$` : "----/----"}
                   </p>
                 </label>
               )}
