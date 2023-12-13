@@ -1,133 +1,31 @@
 import Layout from "./Layout";
 import classes from "./Content.module.css";
 import background from "../../assets/cargo.jpg";
-import { useState } from "react";
-// import copart from "../Data/Data.json";
-import {
-  defaultValue,
-  typeOptions,
-  auctionOptions,
-  renderOptions,
-  initialValues,
-  stateOptions,
-  cityOptions,
-} from "./Exports";
+import { initialValues, renderOptions } from "./Exports";
 import { Formik, Form } from "formik";
 const Content = (props) => {
-  const [stateDisable, setStateDisable] = useState(true);
-  const [cityDisable, setCityDisable] = useState(true);
-  const [typeDisable, setTypeDisable] = useState(true);
-  const [stateValue, setStateValue] = useState(stateOptions);
-  const [cityValue, setCityValue] = useState(cityOptions);
-  const [typeValue, setTypeValue] = useState(typeOptions);
-  const [portOne, setPortOne] = useState("");
-  const [portOnePrice, setPortOnePrice] = useState("");
-  const [portTwo, setPortTwo] = useState("");
-  const [portTwoPrice, setPortTwoPrice] = useState("");
-
-  const handleChange = (e, formik) => {
-    if (e.target.id === "auction") {
-      if (e.target.value === "Copart") {
-        setStateValue(stateOptions);
-        setStateDisable(false);
-      } else {
-        setStateDisable(true);
-        setStateValue(defaultValue);
-        setCityDisable(true);
-        setCityValue(defaultValue);
-        setTypeDisable(true);
-        setTypeValue(defaultValue);
-        setPortOne("");
-        setPortOnePrice("");
-      }
-    } else if (e.target.id === "state") {
-      if (e.target.value) {
-        if (cityValue.length > 1) {
-          setTypeDisable(true);
-          setPortOne("");
-          setPortOnePrice("");
-          setTypeValue(defaultValue);
-          setCityDisable(true);
-          setCityValue(defaultValue);
-        }
-        setTimeout(() => {
-          setCityDisable(false);
-          setCityValue(cityOptions);
-        }, 200);
-      } else {
-        setTypeDisable(true);
-        setPortOne("");
-        setPortOnePrice("");
-        setTypeValue(defaultValue);
-        setCityDisable(true);
-        setCityValue(defaultValue);
-      }
-    } else if (e.target.id === "city") {
-      if (e.target.value) {
-        if (typeValue.length > 1) {
-          setTypeDisable(true);
-          setPortOne("");
-          setPortOnePrice("");
-          setTypeValue(defaultValue);
-        }
-        setTimeout(() => {
-          setTypeDisable(false);
-          setTypeValue(typeOptions);
-        }, 200);
-      } else {
-        setPortOne("");
-        setPortOnePrice("");
-        setTypeDisable(true);
-        setTypeValue(defaultValue);
-      }
-    } else if (e.target.id === "type") {
-      if (e.target.value) {
-        setPortOne("");
-        setPortOnePrice("");
-       setTimeout(() => {
-         setPortOne("New jersey");
-        setPortOnePrice("1550");
-       }, 200);
-       
-        if (portTwo) {
-          setPortTwo("Ganton");
-          setPortTwoPrice("1450");
-        } else {
-          setPortTwo("");
-          setPortTwoPrice("p");
-        }
-      } else {
-        setPortOne("");
-        setPortOnePrice("");
-      }
-    }
-  };
-
   return (
     <div className={classes.content}>
       <img className={classes.logo} src={background} alt="background"></img>
       <Layout>
         <Formik initialValues={initialValues}>
           {(formik) => (
-            <Form
-              className={classes.form}
-              onChange={(event) => handleChange(event, formik)}
-            >
+            <Form className={classes.form} onChange={props.handleChange}>
               <h4 className={classes.heading}>Calculate Transportation</h4>
 
               {/*AUCTIONS \\\\\\\\\\\\\\\\\\\\\\\ */}
               <label htmlFor="auction">
                 Auction:
                 <select as="select" id="auction" name="auction">
-                  {renderOptions(auctionOptions)}
+                  {renderOptions(props.auctionOptions)}
                 </select>
               </label>
 
               {/*STATES \\\\\\\\\\\\\\\\\\\\\\\ */}
               <label htmlFor="state">
                 State:
-                <select id="state" name="state" disabled={stateDisable}>
-                  {renderOptions(stateValue)}
+                <select id="state" name="state" disabled={props.stateDisable}>
+                  {renderOptions(props.stateValue)}
                 </select>
               </label>
 
@@ -138,9 +36,9 @@ const Content = (props) => {
                   as="select"
                   id="city"
                   name="city"
-                  disabled={cityDisable}
+                  disabled={props.cityDisable}
                 >
-                  {renderOptions(cityValue)}
+                  {renderOptions(props.cityValue)}
                 </select>
               </label>
 
@@ -151,23 +49,27 @@ const Content = (props) => {
                   as="select"
                   id="type"
                   name="type"
-                  disabled={typeDisable}
+                  disabled={props.typeDisable}
                 >
-                  {renderOptions(typeValue)}
+                  {renderOptions(props.typeValue)}
                 </select>
               </label>
               <label htmlFor="portOne">
                 Port/Price
                 <p id="portOne" name="portOne">
-                  {portOne ? `${portOne}/${portOnePrice}` : "----/----"}
+                  {props.portOne
+                    ? `${props.portOne}/${props.portOnePrice}`
+                    : "----/----"}
                 </p>
               </label>
 
-              {portTwo && (
+              {props.portTwo && (
                 <label htmlFor="portOne">
                   Port/Price<span>(optional)</span>
                   <p id="portOne" name="portOne">
-                    {portTwo ? `${portTwo}/${portTwoPrice}` : "----/----"}
+                    {props.portTwo
+                      ? `${props.portTwo}/${props.portTwoPrice}`
+                      : "----/----"}
                   </p>
                 </label>
               )}
