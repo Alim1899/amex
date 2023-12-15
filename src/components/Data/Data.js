@@ -34,7 +34,7 @@ const Data = (props) => {
         setCityValue(defaultValue);
         setTypeDisable(true);
         setTypeValue(defaultValue);
-       setPorts([]);
+        setPorts([]);
       }
     } else if (e.target.id === "state") {
       if (e.target.value) {
@@ -60,7 +60,7 @@ const Data = (props) => {
         }, 200);
       } else {
         setTypeDisable(true);
-        setPorts([])
+        setPorts([]);
         setTypeValue(defaultValue);
         setCityDisable(true);
         setCityValue(defaultValue);
@@ -69,10 +69,8 @@ const Data = (props) => {
       if (e.target.value) {
         copart.forEach((el) => {
           if (el.city === e.target.value) {
-            console.log(el.city===e.target.value);
             setPortOne(`${el.port}/${el.price}`);
             if (el.secondport) setPortTwo(`${el.secondport}/${el.secondprice}`);
-            console.log(portOne, portTwo);
           }
         });
 
@@ -91,12 +89,14 @@ const Data = (props) => {
         setTypeValue(defaultValue);
       }
     } else if (e.target.id === "type") {
-       setPorts([portOne,portTwo]);
-      if (e.target.value) {       
-        console.log(ports);
-      } else {
-        setPorts([]);
-      }
+      setPorts([]);
+      setTimeout(() => {
+        if (e.target.value) {
+          setPorts([portOne, portTwo]);
+        } else {
+          setPorts([]);
+        }
+      }, 200);
     }
   };
   return (
