@@ -10,7 +10,7 @@ const Layout = (props) => {
   return (
     <div className={classes.layout}>
       <div className={classes.content}>
-        <img src={logo} alt="logo"></img>
+        <img className={classes.logo} src={logo} alt="logo"></img>
         {props.children}
       </div>
 

@@ -3,6 +3,7 @@ import classes from "./Content.module.css";
 import background from "../../assets/cargo.jpg";
 import { initialValues, renderOptions } from "./Exports";
 import { Formik, Form } from "formik";
+
 const Content = (props) => {
   return (
     <div className={classes.content}>
@@ -13,15 +14,15 @@ const Content = (props) => {
             <Form className={classes.form} onChange={props.handleChange}>
               <h4 className={classes.heading}>Calculate Transportation</h4>
 
-              {/*AUCTIONS \\\\\\\\\\\\\\\\\\\\\\\ */}
+              {/* AUCTIONS */}
               <label htmlFor="auction">
                 Auction:
-                <select as="select" id="auction" name="auction">
+                <select id="auction" name="auction">
                   {renderOptions(props.auctionOptions)}
                 </select>
               </label>
 
-              {/*STATES \\\\\\\\\\\\\\\\\\\\\\\ */}
+              {/* STATES */}
               <label htmlFor="state">
                 State:
                 <select id="state" name="state" disabled={props.stateDisable}>
@@ -29,11 +30,10 @@ const Content = (props) => {
                 </select>
               </label>
 
-              {/*CITIES \\\\\\\\\\\\\\\\\\\\\\\ */}
+              {/* CITIES */}
               <label htmlFor="city">
                 City:
                 <select
-                  as="select"
                   id="city"
                   name="city"
                   disabled={props.cityDisable}
@@ -42,11 +42,10 @@ const Content = (props) => {
                 </select>
               </label>
 
-              {/*TYPES \\\\\\\\\\\\\\\\\\\\\\\ */}
+              {/* TYPES */}
               <label htmlFor="type">
                 Type:
                 <select
-                  as="select"
                   id="type"
                   name="type"
                   disabled={props.typeDisable}
@@ -62,9 +61,9 @@ const Content = (props) => {
               </label>
 
               {props.portTwo && (
-                <label htmlFor="portOne">
+                <label htmlFor="portTwo">
                   Port/Price<span>(optional)</span>
-                  <p id="portOne" name="portOne">
+                  <p id="portTwo" name="portTwo">
                     {props.portTwo ? `${props.portTwo}$` : "----/----"}
                   </p>
                 </label>

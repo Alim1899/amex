@@ -10,20 +10,22 @@
   border-radius: 50px;
   background-color: rgba(189, 189, 197, 0.7);
   margin-top: 7vh;
+  
 }
-
+.logo{
+  width: 70%;
+}
 .content {
   text-align: center;
 }
-.content > img {
-  margin-top: 20px;
-  width: 60%;
-}
+
 
 .states {
   height: 200px;
   max-width: 400px;
   max-width: 100%;
+  
+  
 }
 
 .states > div > label > img {
@@ -79,11 +81,10 @@
   .content,
   .about {
     width: 95%;
-
     text-align: center;
     background-color: unset;
   }
-  .content > img {
+  .content > img { 
     width: 220px;
   }
 }

@@ -2,17 +2,8 @@
   display: flex;
   justify-content: center;
 }
-.logo {
-  width: 100vw;
-  height: 100vh;
-  z-index: -11;
-  margin-top: -10px;
-  position: absolute;
-}
-.form {
-  width: 90%;
-  margin: auto;
-}
+
+
 .form > label {
   display: grid;
   text-align: left;
